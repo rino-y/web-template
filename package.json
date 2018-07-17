@@ -1,0 +1,36 @@
+{
+    "name": "web-template",
+    "displayName": "web-template",
+    "version": "0.1.0",
+    "description": "template for japanese page.",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "serve": "webpack-serve --config ./webpack.config.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "yusuke@hexbrick.tech",
+    "license": "Apache-2.0",
+    "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/yusuke-hbt/web-template.git"
+    },
+    "dependencies": {
+        "modern-normalize": "^0.5.0",
+    },
+    "devDependencies": {
+        "copy-webpack-plugin": "^4.5.2",
+        "css-loader": "^0.28.11",
+        "extract-text-webpack-plugin": "^4.0.0-beta.0",
+        "html-webpack-plugin": "^3.2.0",
+        "node-sass": "^4.9.0",
+        "sass-loader": "^7.0.3",
+        "source-map-loader": "^0.2.3",
+        "style-loader": "^0.21.0",
+        "ts-loader": "^4.4.2",
+        "typescript": "^2.9.2",
+        "webpack": "^4.14.0",
+        "webpack-cli": "^3.0.8",
+        "webpack-serve": "^2.0.0"
+    }
+}
