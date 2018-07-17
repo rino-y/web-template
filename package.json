@@ -11,12 +11,12 @@
     },
     "author": "yusuke@hexbrick.tech",
     "license": "Apache-2.0",
-    "repository" : {
-      "type" : "git",
-      "url" : "https://github.com/yusuke-hbt/web-template.git"
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yusuke-hbt/web-template.git"
     },
     "dependencies": {
-        "modern-normalize": "^0.5.0",
+        "modern-normalize": "^0.5.0"
     },
     "devDependencies": {
         "copy-webpack-plugin": "^4.5.2",

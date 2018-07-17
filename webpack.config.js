@@ -7,7 +7,7 @@ const MODE = 'development';
 module.exports = [
   {
     mode: 'development',
-    entry: path.join(__dirname, 'src/ts/app.tsx'),
+    entry: path.join(__dirname, 'src/ts/app.ts'),
     output: {
       path: path.join(__dirname, 'www'),
       filename: 'js/app.js'
